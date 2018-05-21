@@ -9,6 +9,8 @@ import world.WorldSpatial;
 
 public class AIController extends CarController {
 	
+	private HashMap<Coordinate, MapTile> discoveredView = new HashMap<Coordinate, MapTile>();
+	
 	// How many minimum units the wall is away from the player.
 	private int wallSensitivity = 2;
 	
@@ -38,7 +40,16 @@ public class AIController extends CarController {
 		HashMap<Coordinate, MapTile> currentView = getView();
 		
 		checkStateChange();
-
+		
+		for (Coordinate coordinate : currentView.keySet()) {
+			discoveredView.put(coordinate, currentView.get(coordinate));
+		}
+		
+		for (Coordinate coordinate : discoveredView.keySet()) {
+			System.out.println(coordinate + discoveredView.get(coordinate).getType().toString());
+		}
+		
+		
 		// If you are not following a wall initially, find a wall to stick to!
 		if(!isFollowingWall){
 			if(getSpeed() < CAR_SPEED){
