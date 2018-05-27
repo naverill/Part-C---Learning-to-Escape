@@ -7,35 +7,56 @@ import world.Car;
 
 import java.util.HashMap;
 
+/**
+ * The AI controller responsible for controlling the car's exploration,
+ * key finding and movement capabilities through interface subclasses.
+ */
 public class MyAIController extends CarController{
-    private ExploreStrategy exploreHandler;
-    private KeyFindStrategy keyFindHandler;
-    private MovementStrategy movementHandler;
+    private DepthFirstSearchStrategy dfsStrategy;
+    private KeyFindStrategy keyFindStrategy;
+    private MovementStrategy movementStrategy;
 
     protected CarState state;
 
+    /**
+     * Initializes car, state, and the three strategy subclasses,
+     * as well as setting initial state.
+     * @param car
+     */
 	public MyAIController(Car car) {
 		super(car);
         this.state = new CarState();
 
-		this.exploreHandler = new ExploreStrategy(car);
-		this.keyFindHandler = new KeyFindStrategy(car);
-		this.movementHandler = new MovementStrategy(car);
+		this.dfsStrategy = new DepthFirstSearchStrategy(car);
+		this.keyFindStrategy = new KeyFindStrategy(car);
+		this.movementStrategy = new MovementStrategy(car);
 
 
 		setInitialState(state);
 	}
 
+    /**
+     * Update method, the one entry point into the function from the
+     * World object.
+     * @param delta
+     */
 	@Override
 	public void update(float delta) {
-		// check if map is explored
-        // if not, explore map
 
-        // if map is explored, initialise
+        if (dfsStrategy.isExplored()) {
 
+            keyFindStrategy.newPath();
+        } else {
+            dfsStrategy.newPath();
+        }
 
+        movementStrategy.move(delta);
 	}
 
+    /**
+     * Sets the initial state based on the initial spawn coordinates.
+     * @param state
+     */
 	private void setInitialState(CarState state) {
         // sets initial state - movement and vision
         CarVision initialVision = new CarVision();

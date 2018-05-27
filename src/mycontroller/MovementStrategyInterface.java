@@ -1,5 +1,5 @@
 package mycontroller;
 
 public interface MovementStrategyInterface {
-    void move();
+    void move(float delta);
 }

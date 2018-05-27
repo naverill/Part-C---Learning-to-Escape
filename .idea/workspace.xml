@@ -2,16 +2,116 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0356086a-632d-46f6-b0f0-d569e77a5391" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/mycontroller/ExploreStrategy.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/java-algorithms-implementation" beforeDir="false" afterPath="$PROJECT_DIR$/java-algorithms-implementation" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/jwetherell/algorithms/data_structures/AVLTree.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/jwetherell/algorithms/data_structures/BTree.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/jwetherell/algorithms/data_structures/BinaryHeap.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/jwetherell/algorithms/data_structures/BinarySearchTree.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/jwetherell/algorithms/data_structures/CompactSuffixTrie.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/jwetherell/algorithms/data_structures/DisjointSet.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/jwetherell/algorithms/data_structures/FenwickTree.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/jwetherell/algorithms/data_structures/Graph.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/jwetherell/algorithms/data_structures/HashArrayMappedTrie.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/jwetherell/algorithms/data_structures/HashMap.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/jwetherell/algorithms/data_structures/ImplicitKeyTreap.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/jwetherell/algorithms/data_structures/IntervalSum.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/jwetherell/algorithms/data_structures/IntervalTree.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/jwetherell/algorithms/data_structures/KdTree.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/jwetherell/algorithms/data_structures/LCPArray.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/jwetherell/algorithms/data_structures/List.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/jwetherell/algorithms/data_structures/LowestCommonAncestor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/jwetherell/algorithms/data_structures/Matrix.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/jwetherell/algorithms/data_structures/PatriciaTrie.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/jwetherell/algorithms/data_structures/QuadTree.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/jwetherell/algorithms/data_structures/Queue.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/jwetherell/algorithms/data_structures/RadixTrie.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/jwetherell/algorithms/data_structures/RedBlackTree.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/jwetherell/algorithms/data_structures/SegmentTree.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/jwetherell/algorithms/data_structures/SkipList.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/jwetherell/algorithms/data_structures/SkipListMap.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/jwetherell/algorithms/data_structures/SplayTree.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/jwetherell/algorithms/data_structures/Stack.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/jwetherell/algorithms/data_structures/SuffixArray.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/jwetherell/algorithms/data_structures/SuffixTree.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/jwetherell/algorithms/data_structures/SuffixTrie.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/jwetherell/algorithms/data_structures/TernarySearchTree.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/jwetherell/algorithms/data_structures/Treap.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/jwetherell/algorithms/data_structures/TreeMap.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/jwetherell/algorithms/data_structures/Trie.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/jwetherell/algorithms/data_structures/TrieMap.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/jwetherell/algorithms/data_structures/interfaces/IHeap.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/jwetherell/algorithms/data_structures/interfaces/IList.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/jwetherell/algorithms/data_structures/interfaces/IMap.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/jwetherell/algorithms/data_structures/interfaces/IQueue.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/jwetherell/algorithms/data_structures/interfaces/ISet.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/jwetherell/algorithms/data_structures/interfaces/IStack.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/jwetherell/algorithms/data_structures/interfaces/ISuffixTree.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/jwetherell/algorithms/data_structures/interfaces/ITree.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/jwetherell/algorithms/graph/AStar.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/jwetherell/algorithms/graph/BellmanFord.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/jwetherell/algorithms/graph/BreadthFirstTraversal.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/jwetherell/algorithms/graph/ConnectedComponents.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/jwetherell/algorithms/graph/CycleDetection.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/jwetherell/algorithms/graph/DepthFirstTraversal.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/jwetherell/algorithms/graph/Dijkstra.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/jwetherell/algorithms/graph/EdmondsKarp.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/jwetherell/algorithms/graph/FloydWarshall.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/jwetherell/algorithms/graph/Johnson.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/jwetherell/algorithms/graph/Kruskal.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/jwetherell/algorithms/graph/Prim.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/jwetherell/algorithms/graph/PushRelabel.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/jwetherell/algorithms/graph/TopologicalSort.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/jwetherell/algorithms/graph/TurboMatching.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/jwetherell/algorithms/mathematics/Coprimes.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/jwetherell/algorithms/mathematics/DiscreteLogarithm.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/jwetherell/algorithms/mathematics/Distance.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/jwetherell/algorithms/mathematics/Division.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/jwetherell/algorithms/mathematics/Exponentiation.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/jwetherell/algorithms/mathematics/FastFourierTransform.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/jwetherell/algorithms/mathematics/GreatestCommonDivisor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/jwetherell/algorithms/mathematics/Knapsack.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/jwetherell/algorithms/mathematics/LUDecomposition.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/jwetherell/algorithms/mathematics/Modular.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/jwetherell/algorithms/mathematics/Multiplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/jwetherell/algorithms/mathematics/Permutations.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/jwetherell/algorithms/mathematics/Primes.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/jwetherell/algorithms/mathematics/RamerDouglasPeucker.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/jwetherell/algorithms/numbers/Complex.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/jwetherell/algorithms/numbers/Integers.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/jwetherell/algorithms/numbers/Longs.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/jwetherell/algorithms/search/BinarySearch.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/jwetherell/algorithms/search/InterpolationSearch.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/jwetherell/algorithms/search/LinearSearch.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/jwetherell/algorithms/search/LowerBound.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/jwetherell/algorithms/search/QuickSelect.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/jwetherell/algorithms/search/UpperBound.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/jwetherell/algorithms/sequence/ArithmeticProgression.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/jwetherell/algorithms/sequence/FibonacciSequence.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/jwetherell/algorithms/sequence/LargestSumContiguousSubarray.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/jwetherell/algorithms/sequence/LongestCommonSubsequence.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/jwetherell/algorithms/sequence/LongestIncreasingSubsequence.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/jwetherell/algorithms/sequence/LongestPalindromicSubsequence.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/jwetherell/algorithms/sequence/SubsequenceCounter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/jwetherell/algorithms/sorts/AmericanFlagSort.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/jwetherell/algorithms/sorts/BubbleSort.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/jwetherell/algorithms/sorts/CountingSort.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/jwetherell/algorithms/sorts/HeapSort.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/jwetherell/algorithms/sorts/InsertionSort.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/jwetherell/algorithms/sorts/MergeSort.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/jwetherell/algorithms/sorts/QuickSort.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/jwetherell/algorithms/sorts/RadixSort.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/jwetherell/algorithms/sorts/ShellSort.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/jwetherell/algorithms/strings/KnuthMorrisPratt.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/jwetherell/algorithms/strings/Manacher.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/jwetherell/algorithms/strings/Rotation.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/jwetherell/algorithms/strings/StringFunctions.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/mycontroller/CarState.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/mycontroller/CarState.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/mycontroller/CarVision.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/mycontroller/CarVision.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/mycontroller/ExploreHandler.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/mycontroller/ExploreHandlerInterface.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/mycontroller/ExploreStrategyInterface.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/mycontroller/KeyFindHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/mycontroller/KeyFindStrategy.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/mycontroller/KeyFindHandlerInterface.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/mycontroller/KeyFindStrategyInterface.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/mycontroller/MovementHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/mycontroller/MovementStrategy.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/mycontroller/MovementHandlerInterface.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/mycontroller/MovementStrategyInterface.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/mycontroller/ExploreStrategy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/mycontroller/DepthFirstSearchStrategy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/mycontroller/ExploreStrategyInterface.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/mycontroller/ExploreStrategyInterface.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/mycontroller/MovementStrategy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/mycontroller/MovementStrategy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/mycontroller/MovementStrategyInterface.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/mycontroller/MovementStrategyInterface.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/mycontroller/MyAIController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/mycontroller/MyAIController.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/bin/" />
@@ -23,14 +123,14 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.46741387">
+    <splitter split-orientation="horizontal" split-proportion="0.5">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-          <file leaf-file-name="MyAIController.java" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/src/mycontroller/MyAIController.java">
+          <file leaf-file-name="MovementStrategy.java" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/mycontroller/MovementStrategy.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="708">
-                  <caret line="41" column="29" selection-start-line="41" selection-start-column="29" selection-end-line="41" selection-end-column="29" />
+                <state relative-caret-position="290">
+                  <caret line="11" column="35" lean-forward="true" selection-start-line="11" selection-start-column="35" selection-end-line="11" selection-end-column="35" />
                   <folding>
                     <element signature="imports" expanded="true" />
                   </folding>
@@ -41,17 +141,32 @@
           <file leaf-file-name="CarState.java" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/mycontroller/CarState.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="290">
-                  <caret line="10" column="16" selection-start-line="10" selection-start-column="16" selection-end-line="10" selection-end-column="16" />
+                <state relative-caret-position="511">
+                  <caret line="42" column="58" selection-start-line="42" selection-start-column="58" selection-end-line="42" selection-end-column="58" />
                   <folding>
+                    <element signature="imports" expanded="true" />
                     <element signature="e#145#146#0" expanded="true" />
                     <element signature="e#174#175#0" expanded="true" />
-                    <element signature="e#221#222#0" expanded="true" />
-                    <element signature="e#257#258#0" expanded="true" />
-                    <element signature="e#297#298#0" expanded="true" />
-                    <element signature="e#328#329#0" expanded="true" />
-                    <element signature="e#381#382#0" expanded="true" />
-                    <element signature="e#421#422#0" expanded="true" />
+                    <element signature="e#455#456#0" expanded="true" />
+                    <element signature="e#491#492#0" expanded="true" />
+                    <element signature="e#531#532#0" expanded="true" />
+                    <element signature="e#562#563#0" expanded="true" />
+                    <element signature="e#736#737#0" expanded="true" />
+                    <element signature="e#776#777#0" expanded="true" />
+                    <element signature="e#849#850#0" expanded="true" />
+                    <element signature="e#909#910#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="CarVision.java" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/src/mycontroller/CarVision.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="406">
+                  <caret line="17" column="5" lean-forward="true" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
+                  <folding>
+                    <element signature="imports" expanded="true" />
                   </folding>
                 </state>
               </provider>
@@ -61,56 +176,13 @@
       </split-first>
       <split-second>
         <leaf>
-          <file leaf-file-name="ExploreStrategyInterface.java" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/mycontroller/ExploreStrategyInterface.java">
+          <file leaf-file-name="DepthFirstSearchStrategy.java" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/src/mycontroller/DepthFirstSearchStrategy.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="203">
-                  <caret line="7" column="21" selection-start-line="7" selection-start-column="21" selection-end-line="7" selection-end-column="21" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="ExploreStrategy.java" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/src/mycontroller/ExploreStrategy.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="435">
-                  <caret line="42" column="35" selection-start-line="42" selection-start-column="35" selection-end-line="42" selection-end-column="35" />
+                <state relative-caret-position="-1200">
+                  <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
                   <folding>
                     <element signature="imports" expanded="true" />
-                    <element signature="e#240#241#0" expanded="true" />
-                    <element signature="e#268#269#0" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="CarVision.java" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/mycontroller/CarVision.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="493">
-                  <caret line="21" column="40" selection-start-line="21" selection-start-column="40" selection-end-line="21" selection-end-column="40" />
-                  <folding>
-                    <element signature="imports" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="CarMovement.java" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/mycontroller/CarMovement.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="261">
-                  <caret line="9" column="12" selection-start-line="9" selection-start-column="12" selection-end-line="9" selection-end-column="12" />
-                  <folding>
-                    <element signature="imports" expanded="true" />
-                    <element signature="e#238#239#0" expanded="true" />
-                    <element signature="e#271#272#0" expanded="true" />
-                    <element signature="e#327#328#0" expanded="true" />
-                    <element signature="e#371#372#0" expanded="true" />
-                    <element signature="e#412#413#0" expanded="true" />
-                    <element signature="e#445#446#0" expanded="true" />
-                    <element signature="e#501#502#0" expanded="true" />
-                    <element signature="e#545#546#0" expanded="true" />
                   </folding>
                 </state>
               </provider>
@@ -147,6 +219,8 @@
       <find>controller</find>
       <find>car</find>
       <find>update</find>
+      <find>hashmap</find>
+      <find>delta</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -158,18 +232,21 @@
         <option value="$PROJECT_DIR$/src/world/Car.java" />
         <option value="$PROJECT_DIR$/src/controller/AIController.java" />
         <option value="$PROJECT_DIR$/assets/Driving.Properties" />
-        <option value="$PROJECT_DIR$/src/mycontroller/CarState.java" />
-        <option value="$PROJECT_DIR$/src/mycontroller/CarMovement.java" />
         <option value="$PROJECT_DIR$/src/mycontroller/MovementHandlerInterface.java" />
         <option value="$PROJECT_DIR$/src/mycontroller/MovementHandler.java" />
         <option value="$PROJECT_DIR$/src/mycontroller/KeyFindHandlerInterface.java" />
         <option value="$PROJECT_DIR$/src/mycontroller/KeyFindHandler.java" />
         <option value="$PROJECT_DIR$/src/mycontroller/ExploreHandlerInterface.java" />
-        <option value="$PROJECT_DIR$/src/mycontroller/MyAIController.java" />
         <option value="$PROJECT_DIR$/src/mycontroller/ExploreHandler.java" />
         <option value="$PROJECT_DIR$/src/mycontroller/ExploreStrategyInterface.java" />
-        <option value="$PROJECT_DIR$/src/mycontroller/CarVision.java" />
         <option value="$PROJECT_DIR$/src/mycontroller/ExploreStrategy.java" />
+        <option value="$PROJECT_DIR$/src/mycontroller/MovementStrategyInterface.java" />
+        <option value="$PROJECT_DIR$/src/mycontroller/MovementStrategy.java" />
+        <option value="$PROJECT_DIR$/src/mycontroller/CarMovement.java" />
+        <option value="$PROJECT_DIR$/src/mycontroller/MyAIController.java" />
+        <option value="$PROJECT_DIR$/src/mycontroller/DepthFirstSearchStrategy.java" />
+        <option value="$PROJECT_DIR$/src/mycontroller/CarState.java" />
+        <option value="$PROJECT_DIR$/src/mycontroller/CarVision.java" />
       </list>
     </option>
   </component>
@@ -212,19 +289,6 @@
               <item name="Part C" type="b2602c69:ProjectViewProjectNode" />
               <item name="Part C" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="algorithms" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Part C" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Part C" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="algorithms" type="462c0819:PsiDirectoryNode" />
-              <item name="data_structures" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Part C" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Part C" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="controller" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -262,7 +326,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="SearchEverywhereHistoryKey" value="setvis&#9;PSI&#9;JAVA://mycontroller.CarState#setVision&#10;peek&#9;PSI&#9;JAVA://controller.CarController#peek&#10;graph&#9;FILE&#9;file:///home/hector/unisem1/softmod/ass3/Part C/src/com/jwetherell/algorithms/data_structures/Graph.java&#10;getprev&#9;PSI&#9;JAVA://mycontroller.CarMovement#getPrevCoords&#10;depth&#9;FILE&#9;file:///home/hector/unisem1/softmod/ass3/Part C/src/com/jwetherell/algorithms/graph/DepthFirstTraversal.java&#10;expl&#9;FILE&#9;file:///home/hector/unisem1/softmod/ass3/Part C/src/mycontroller/ExploreHandler.java&#10;prop&#9;FILE&#9;file:///home/hector/unisem1/softmod/ass3/Part C/assets/Driving.Properties&#10;world&#9;FILE&#9;file:///home/hector/unisem1/softmod/ass3/Part C/src/world/World.java&#10;myai&#9;PSI&#9;JAVA://mycontroller.MyAIController&#10;carcon&#9;FILE&#9;file:///home/hector/unisem1/softmod/ass3/Part C/src/controller/CarController.java&#10;getmap&#9;PSI&#9;JAVA://controller.CarController#getMap&#10;car&#9;FILE&#9;file:///home/hector/unisem1/softmod/ass3/Part C/src/controller/CarController.java&#10;aicon&#9;FILE&#9;file:///home/hector/unisem1/softmod/ass3/Part C/src/controller/AIController.java&#10;tiletype&#9;PSI&#9;JAVA://tiles.MapTile#tileType&#10;mapti&#9;PSI&#9;JAVA://tiles.MapTile" />
+    <property name="SearchEverywhereHistoryKey" value="state&#9;FILE&#9;file:///home/hector/unisem1/softmod/ass3/Part C/src/mycontroller/CarState.java&#10;dfs&#9;FILE&#9;file:///home/hector/unisem1/softmod/ass3/Part C/src/mycontroller/DepthFirstSearchStrategy.java&#10;peekt&#9;FILE&#9;file:///home/hector/unisem1/softmod/ass3/Part C/src/utilities/PeekTuple.java&#10;pee&#9;FILE&#9;file:///home/hector/unisem1/softmod/ass3/Part C/src/utilities/PeekTuple.java&#10;turnle&#9;PSI&#9;JAVA://controller.CarController#turnLeft&#10;setvis&#9;PSI&#9;JAVA://mycontroller.CarState#setVision&#10;peek&#9;PSI&#9;JAVA://controller.CarController#peek&#10;graph&#9;FILE&#9;file:///home/hector/unisem1/softmod/ass3/Part C/src/com/jwetherell/algorithms/data_structures/Graph.java&#10;getprev&#9;PSI&#9;JAVA://mycontroller.CarMovement#getPrevCoords&#10;depth&#9;FILE&#9;file:///home/hector/unisem1/softmod/ass3/Part C/src/com/jwetherell/algorithms/graph/DepthFirstTraversal.java&#10;expl&#9;FILE&#9;file:///home/hector/unisem1/softmod/ass3/Part C/src/mycontroller/ExploreHandler.java&#10;prop&#9;FILE&#9;file:///home/hector/unisem1/softmod/ass3/Part C/assets/Driving.Properties&#10;world&#9;FILE&#9;file:///home/hector/unisem1/softmod/ass3/Part C/src/world/World.java&#10;myai&#9;PSI&#9;JAVA://mycontroller.MyAIController&#10;carcon&#9;FILE&#9;file:///home/hector/unisem1/softmod/ass3/Part C/src/controller/CarController.java&#10;getmap&#9;PSI&#9;JAVA://controller.CarController#getMap&#10;car&#9;FILE&#9;file:///home/hector/unisem1/softmod/ass3/Part C/src/controller/CarController.java&#10;aicon&#9;FILE&#9;file:///home/hector/unisem1/softmod/ass3/Part C/src/controller/AIController.java&#10;tiletype&#9;PSI&#9;JAVA://tiles.MapTile#tileType&#10;mapti&#9;PSI&#9;JAVA://tiles.MapTile" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/.." />
@@ -369,47 +433,47 @@
       <workItem from="1526909312777" duration="342000" />
       <workItem from="1527223924485" duration="388000" />
       <workItem from="1527224972078" duration="11646000" />
-      <workItem from="1527388899872" duration="17184000" />
+      <workItem from="1527388899872" duration="22710000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="31538000" />
+    <option name="totallyTimeSpent" value="37064000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="27" width="2560" height="1380" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
+      <window_info anchor="right" id="Maven Projects" order="3" />
+      <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
+      <window_info id="Capture Tool" order="2" />
+      <window_info id="Designer" order="2" />
+      <window_info anchor="right" id="Database" order="3" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info id="UI Designer" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Messages" order="7" weight="0.32893652" />
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info id="Image Layers" order="2" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
-      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Run Dashboard" order="7" />
-      <window_info anchor="right" id="Maven Projects" order="3" />
-      <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.32975206" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.32893652" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.3305785" />
-      <window_info id="Capture Tool" order="2" />
-      <window_info id="Designer" order="2" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.037170265" />
-      <window_info anchor="right" id="Database" order="3" />
+      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.3305785" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17186251" />
+      <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="right" id="UML design tool window" order="3" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info id="UI Designer" order="2" />
       <window_info anchor="right" id="Theme Preview" order="3" />
       <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="bottom" id="Find" order="1" />
     </layout>
     <layout-to-restore>
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
@@ -747,26 +811,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/world/Car.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="725">
-          <caret line="84" column="9" lean-forward="true" selection-start-line="84" selection-start-column="9" selection-end-line="84" selection-end-column="9" />
-          <folding>
-            <element signature="e#5515#5516#0" expanded="true" />
-            <element signature="e#5538#5539#0" expanded="true" />
-            <element signature="e#17543#17544#0" expanded="true" />
-            <element signature="e#17580#17581#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/world/World.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="381">
-          <caret line="28" column="13" selection-start-line="28" selection-start-column="13" selection-end-line="28" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/controller/AIController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="348">
@@ -774,31 +818,6 @@
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/tiles/LavaTrap.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="145">
-          <caret line="5" column="42" selection-start-line="5" selection-start-column="42" selection-end-line="5" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/mycontroller/MovementStrategy.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="319">
-          <caret line="10" column="21" selection-start-line="10" selection-start-column="21" selection-end-line="10" selection-end-column="21" />
-          <folding>
-            <element signature="e#168#169#0" expanded="true" />
-            <element signature="e#194#195#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/mycontroller/MovementStrategyInterface.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="87">
-          <caret line="3" column="8" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="8" />
         </state>
       </provider>
     </entry>
@@ -822,46 +841,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="uml://JAVA/mycontroller">
-      <provider selected="true" editor-type-id="UmlEditorProvider">
-        <state>
-          <ID>JAVA</ID>
-          <OriginalElement>mycontroller</OriginalElement>
-          <nodes>
-            <node x="" y="">mycontroller.KeyFindHandler</node>
-            <node x="" y="">mycontroller.MovementHandler</node>
-            <node x="" y="">mycontroller.MovementHandlerInterface</node>
-            <node x="" y="">mycontroller.ExploreHandler</node>
-            <node x="" y="">mycontroller.MyAIController</node>
-            <node x="" y="">mycontroller.KeyFindHandlerInterface</node>
-            <node x="" y="">mycontroller.CarMovement</node>
-            <node x="" y="">mycontroller.CarState</node>
-            <node x="" y="">mycontroller.CarVision</node>
-            <node x="" y="">mycontroller.ExploreHandlerInterface</node>
-          </nodes>
-          <notes />
-          <edges />
-          <settings layout="Hierarchic Group" zoom="1.0" x="520.0" y="107.5" />
-          <SelectedNodes />
-          <Categories>
-            <Category>Fields</Category>
-            <Category>Constructors</Category>
-            <Category>Methods</Category>
-            <Category>Properties</Category>
-            <Category>Inner Classes</Category>
-          </Categories>
-          <SCOPE>All</SCOPE>
-          <VISIBILITY>private</VISIBILITY>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/utilities/PeekTuple.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="58">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/jwetherell/algorithms/data_structures/Graph.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1015">
@@ -879,15 +858,38 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/mycontroller/ExploreStrategyInterface.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="145">
+          <caret line="5" column="19" selection-start-line="5" selection-start-column="19" selection-end-line="5" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/tiles/LavaTrap.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="319">
+          <caret line="11" column="39" selection-start-line="11" selection-start-column="39" selection-end-line="11" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/world/World.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3480">
+          <caret line="137" column="34" selection-start-line="137" selection-start-column="29" selection-end-line="137" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/controller/CarController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="435">
-          <caret line="126" column="21" selection-start-line="126" selection-start-column="21" selection-end-line="126" selection-end-column="21" />
+        <state relative-caret-position="319">
+          <caret line="51" column="21" selection-start-line="51" selection-start-column="21" selection-end-line="51" selection-end-column="21" />
           <folding>
             <element signature="e#372#373#0" expanded="true" />
             <element signature="e#393#394#0" expanded="true" />
             <element signature="e#455#456#0" expanded="true" />
             <element signature="e#478#479#0" expanded="true" />
+            <element signature="e#901#902#0" expanded="true" />
+            <element signature="e#932#933#0" expanded="true" />
             <element signature="e#1186#1187#0" expanded="true" />
             <element signature="e#1222#1223#0" expanded="true" />
             <element signature="e#2800#2801#0" expanded="true" />
@@ -900,10 +902,30 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/world/Car.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3587">
+          <caret line="538" column="19" selection-start-line="538" selection-start-column="19" selection-end-line="538" selection-end-column="19" />
+          <folding>
+            <element signature="e#5515#5516#0" expanded="true" />
+            <element signature="e#5538#5539#0" expanded="true" />
+            <element signature="e#17543#17544#0" expanded="true" />
+            <element signature="e#17580#17581#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/utilities/PeekTuple.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="174">
+          <caret line="6" column="18" lean-forward="true" selection-start-line="6" selection-start-column="18" selection-end-line="6" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/mycontroller/CarMovement.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="261">
-          <caret line="9" column="12" selection-start-line="9" selection-start-column="12" selection-end-line="9" selection-end-column="12" />
+        <state relative-caret-position="366">
+          <caret line="20" column="25" selection-start-line="20" selection-start-column="25" selection-end-line="20" selection-end-column="25" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#238#239#0" expanded="true" />
@@ -918,58 +940,102 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/mycontroller/ExploreStrategyInterface.java">
+    <entry file="file://$PROJECT_DIR$/src/mycontroller/MyAIController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="203">
-          <caret line="7" column="21" selection-start-line="7" selection-start-column="21" selection-end-line="7" selection-end-column="21" />
+        <state relative-caret-position="232">
+          <caret line="56" column="69" selection-start-line="56" selection-start-column="69" selection-end-line="56" selection-end-column="69" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/mycontroller/DepthFirstSearchStrategy.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1200">
+          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/mycontroller/CarState.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="290">
-          <caret line="10" column="16" selection-start-line="10" selection-start-column="16" selection-end-line="10" selection-end-column="16" />
+        <state relative-caret-position="511">
+          <caret line="42" column="58" selection-start-line="42" selection-start-column="58" selection-end-line="42" selection-end-column="58" />
           <folding>
+            <element signature="imports" expanded="true" />
             <element signature="e#145#146#0" expanded="true" />
             <element signature="e#174#175#0" expanded="true" />
-            <element signature="e#221#222#0" expanded="true" />
-            <element signature="e#257#258#0" expanded="true" />
-            <element signature="e#297#298#0" expanded="true" />
-            <element signature="e#328#329#0" expanded="true" />
-            <element signature="e#381#382#0" expanded="true" />
-            <element signature="e#421#422#0" expanded="true" />
+            <element signature="e#455#456#0" expanded="true" />
+            <element signature="e#491#492#0" expanded="true" />
+            <element signature="e#531#532#0" expanded="true" />
+            <element signature="e#562#563#0" expanded="true" />
+            <element signature="e#736#737#0" expanded="true" />
+            <element signature="e#776#777#0" expanded="true" />
+            <element signature="e#849#850#0" expanded="true" />
+            <element signature="e#909#910#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/mycontroller/MovementStrategy.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="290">
+          <caret line="11" column="35" lean-forward="true" selection-start-line="11" selection-start-column="35" selection-end-line="11" selection-end-column="35" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/mycontroller/MovementStrategyInterface.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="87">
+          <caret line="3" column="20" selection-start-line="3" selection-start-column="20" selection-end-line="3" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JAVA/mycontroller">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>mycontroller</OriginalElement>
+          <nodes>
+            <node x="" y="">mycontroller.ExploreStrategyInterface</node>
+            <node x="" y="">mycontroller.MovementStrategy</node>
+            <node x="" y="">mycontroller.DepthFirstSearchStrategy</node>
+            <node x="" y="">mycontroller.MyAIController</node>
+            <node x="" y="">mycontroller.KeyFindStrategy</node>
+            <node x="" y="">mycontroller.CarMovement</node>
+            <node x="" y="">mycontroller.KeyFindStrategyInterface</node>
+            <node x="" y="">mycontroller.CarState</node>
+            <node x="" y="">mycontroller.MovementStrategyInterface</node>
+            <node x="" y="">mycontroller.CarVision</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="1.0" x="527.5" y="265.0" />
+          <SelectedNodes />
+          <Categories>
+            <Category>Fields</Category>
+            <Category>Constructors</Category>
+            <Category>Inner Classes</Category>
+            <Category>Properties</Category>
+            <Category>Methods</Category>
+          </Categories>
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/mycontroller/CarVision.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="493">
-          <caret line="21" column="40" selection-start-line="21" selection-start-column="40" selection-end-line="21" selection-end-column="40" />
+        <state relative-caret-position="406">
+          <caret line="17" column="5" lean-forward="true" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/mycontroller/MyAIController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="708">
-          <caret line="41" column="29" selection-start-line="41" selection-start-column="29" selection-end-line="41" selection-end-column="29" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/mycontroller/ExploreStrategy.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="435">
-          <caret line="42" column="35" selection-start-line="42" selection-start-column="35" selection-end-line="42" selection-end-column="35" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#240#241#0" expanded="true" />
-            <element signature="e#268#269#0" expanded="true" />
           </folding>
         </state>
       </provider>

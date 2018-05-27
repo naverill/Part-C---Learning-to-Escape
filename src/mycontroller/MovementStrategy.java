@@ -1,5 +1,6 @@
 package mycontroller;
 
+import utilities.PeekTuple;
 import world.Car;
 
 public class MovementStrategy extends MyAIController implements MovementStrategyInterface {
@@ -8,7 +9,6 @@ public class MovementStrategy extends MyAIController implements MovementStrategy
     }
 
     @Override
-    public void move() {
-
+    public void move(float delta) {
     }
 }
