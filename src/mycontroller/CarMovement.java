@@ -6,22 +6,22 @@ import utilities.Coordinate;
 import java.util.HashMap;
 
 public class CarMovement {
-    private HashMap<Coordinate, MapTile> prevCoords;
-    private HashMap<Coordinate, MapTile> nextCoords;
+    private Coordinate prevCoords;
+    private Coordinate nextCoords;
 
-    public HashMap<Coordinate, MapTile> getPrevCoords() {
+    public Coordinate getPrevCoords() {
         return prevCoords;
     }
 
-    public void setPrevCoords(HashMap<Coordinate, MapTile> prevCoords) {
+    public void setPrevCoords(Coordinate prevCoords) {
         this.prevCoords = prevCoords;
     }
 
-    public HashMap<Coordinate, MapTile> getNextCoords() {
+    public Coordinate getNextCoords() {
         return nextCoords;
     }
 
-    public void setNextCoords(HashMap<Coordinate, MapTile> nextCoords) {
+    public void setNextCoords(Coordinate nextCoords) {
         this.nextCoords = nextCoords;
     }
 }
