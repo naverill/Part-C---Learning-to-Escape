@@ -1,6 +1,6 @@
 package mycontroller;
 
-public interface KeyFindHandlerInterface {
+public interface KeyFindStrategyInterface {
     public boolean isKeyFound();
 
     void newPath();

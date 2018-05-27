@@ -1,6 +1,6 @@
 package mycontroller;
 
-public interface ExploreHandlerInterface {
+public interface ExploreStrategyInterface {
     public boolean isExplored();
 
     void newPath();

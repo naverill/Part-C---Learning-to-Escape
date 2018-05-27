@@ -1,22 +1,27 @@
 package mycontroller;
 
 import controller.CarController;
+import tiles.MapTile;
 import utilities.Coordinate;
 import world.Car;
 
+import java.util.HashMap;
+
 public class MyAIController extends CarController{
-    private ExploreHandler exploreHandler;
-    private KeyFindHandler keyFindHandler;
-    private MovementHandler movementHandler;
+    private ExploreStrategy exploreHandler;
+    private KeyFindStrategy keyFindHandler;
+    private MovementStrategy movementHandler;
 
     protected CarState state;
 
 	public MyAIController(Car car) {
 		super(car);
-		this.exploreHandler = new ExploreHandler(car);
-		this.keyFindHandler = new KeyFindHandler(car);
-		this.movementHandler = new MovementHandler(car);
-		this.state = new CarState();
+        this.state = new CarState();
+
+		this.exploreHandler = new ExploreStrategy(car);
+		this.keyFindHandler = new KeyFindStrategy(car);
+		this.movementHandler = new MovementStrategy(car);
+
 
 		setInitialState(state);
 	}
@@ -34,7 +39,7 @@ public class MyAIController extends CarController{
 	private void setInitialState(CarState state) {
         // sets initial state - movement and vision
         CarVision initialVision = new CarVision();
-        initialVision.setVision(getMap());
+        initialVision.setVision(new HashMap<Coordinate, MapTile>());
 
         CarMovement initialMovement = new CarMovement();
         initialMovement.setPrevCoords(new Coordinate((int)getX(), (int)getY()));
